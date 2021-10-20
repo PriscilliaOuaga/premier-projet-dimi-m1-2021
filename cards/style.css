@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2? family= Montserrat:ital,wght@1,100 & display=swap'); 
+
+body, body * {
+    margin: 0;
+    box-sizing: border-box;
+    position:relative
+}
+
+body{
+    background-color: rgb(219, 106, 106);
+    font-family : 'Montserrat', sans-serif ;
+}
+
+ 
+h1{
+    font-size: 100px;
+}
+div.card {
+    position:absolute;
+    width: 200px;
+    height: 200px;
+    cursor: pointer;
+
+    background-color: rgb(102, 6, 6);
+    font-size: 120px;
+    border-radius: 4px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    box-shadow: black;
+}
